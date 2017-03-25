@@ -22,7 +22,7 @@ If `some_method` will be invoked on instance of `SomeDerivedClass` `MethodNotImp
 ## Installing gem
 Add to your Gemfile:
 ```ruby
-gem 'method-not-implemented', '~> 2.0'
+gem 'method-not-implemented', '~> 1.0'
 ```
 
 ## Running Tests
