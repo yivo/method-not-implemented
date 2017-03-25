@@ -19,7 +19,4 @@ class MethodNotImplemented < StandardError
   end
 end
 
-[Class, Module].each do |x|
-  x.include MethodNotImplemented::Extension
-  x.extend  MethodNotImplemented::Extension
-end
+Object.include MethodNotImplemented::Extension
