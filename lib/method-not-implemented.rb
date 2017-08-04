@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 class MethodNotImplemented < StandardError
-  VERSION = '1.0.0'
+  VERSION = "1.0.1"
 
   module Extension
     def method_not_implemented
@@ -19,4 +19,4 @@ class MethodNotImplemented < StandardError
   end
 end
 
-Object.include MethodNotImplemented::Extension
+Object.send :include, MethodNotImplemented::Extension

@@ -1,8 +1,7 @@
 # encoding: UTF-8
 # frozen_string_literal: true
 
-require 'test-unit'
-require 'method-not-implemented'
+Bundler.require :default, :development
 
 class MethodNotImplementedTest < Test::Unit::TestCase
   class Foo

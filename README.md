@@ -1,10 +1,9 @@
-## Adds `method_not_implemented` to every class and module in Ruby.
+## Tweaks every Ruby object with `method_not_implemented`.
 
 [![Gem Version](https://badge.fury.io/rb/method-not-implemented.svg)](https://badge.fury.io/rb/method-not-implemented)
 [![Build Status](https://travis-ci.org/yivo/method-not-implemented.svg?branch=master)](https://travis-ci.org/yivo/method-not-implemented)
 
 ## About
-This gem adds `method_not_implemented` to every class and module in Ruby.
 ```ruby
 class SomeBaseClass
   def some_method
@@ -22,10 +21,10 @@ If `some_method` will be invoked on instance of `SomeDerivedClass` `MethodNotImp
 ## Installing gem
 Add to your Gemfile:
 ```ruby
-gem 'method-not-implemented', '~> 1.0'
+gem "method-not-implemented", "~> 1.0"
 ```
 
-## Running Tests
+## Running tests
 Install bundler:
 ```bash
 gem install bundler
